@@ -21,7 +21,7 @@ index.html - Minimal  frontend code
 
 main.py - Entry point of FastAPI application
 
-routes.py → Defines API endpoints and maps requests to CRUD functions
+routes.py - Defines API endpoints and maps requests to CRUD functions
 
 crud.py - Contains CRUD database logic
 
@@ -31,7 +31,7 @@ database.py - Creates database engine and database sessions
 
 models.py - Defines database tables using SQLAlchemy ORM
 
-docker-compose.yaml → Manages FastAPI and PostgreSQL containers
+docker-compose.yaml - Manages FastAPI and PostgreSQL containers
 
 Dockerfile - Defines instructions to build Docker image
 
