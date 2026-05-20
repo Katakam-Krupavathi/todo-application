@@ -15,19 +15,21 @@ Containerization:
 
 ## Folders / Files:
 
-app/ -  Contains all application source code
+app/ -  Contains all application source code\
+
+index.html - Minimal  frontend code 
 
 main.py - Entry point of FastAPI application
+
+routes.py → Defines API endpoints and maps requests to CRUD functions
+
+crud.py - Contains CRUD database logic
+
+schemas.py - Defines request and response data models
 
 database.py - Creates database engine and database sessions
 
 models.py - Defines database tables using SQLAlchemy ORM
-
-schemas.py - Defines request and response data models
-
-crud.py - Contains CRUD database logic
-
-requirements.txt - Stores required Python package
 
 docker-compose.yaml → Manages FastAPI and PostgreSQL containers
 
